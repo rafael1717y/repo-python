@@ -87,8 +87,19 @@ print(words)
 
 for word in words:
     print(word)
-    time.sleep(.5)
+    #time.sleep(.5)
 
+musical_groups = [
+    ["Ad Rock", "MCA", "Mike D."],
+    ["John Lennon", "Paul M", "Ringo", "George"]
+]
+
+## JOIN
+for item in musical_groups:
+    if len(item) == 3:
+        print(", ".join(item))
+
+    #print(", ".join(item))
 
 
 
