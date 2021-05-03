@@ -1,2 +1,0 @@
-def flask():
-    return None
