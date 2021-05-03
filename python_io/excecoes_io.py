@@ -3,7 +3,7 @@
 """
 
 try:
-    arquivo_contatos = open('/home/rafael/PycharmProjects/repo-python/python_io/contat.csv', encoding='latin_1', mode='w+')
+    arquivo_contatos = open('/orientacaoobjetos/contat.csv', encoding='latin_1', mode='w+')
     for linha in arquivo_contatos:
         print(linha, end='')
 except FileNotFoundError:
